@@ -12,6 +12,7 @@ body {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
+    padding: 20px;
 }
 
 section {
@@ -36,6 +37,41 @@ section {
 }
 
 #awards-section {
-    
+    display: block;
 }
 */
+
+#awards-section {
+    flex-direction: column;
+}
+
+#awards-area {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+#awards-frame {
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#awards-quote-frame {
+    width: 50%;
+}
+
+.award, #awards-quote-frame {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.award img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
