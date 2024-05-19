@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 1px solid purple;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+#intro {
+    background-color: aquamarine;
+}
+
+#technical {
+    background-color: brown;
+}
+
+#shorts {
+    background-color: blue;
+}
+
+#awards {
+    background-color: blueviolet;
+}
