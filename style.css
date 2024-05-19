@@ -5,7 +5,7 @@
 }
 
 body {
-    border: 1px solid purple;
+    background-color: #F8F7F5;
 }
 
 .container {
@@ -22,18 +22,20 @@ section {
     scroll-snap-align: start;
 }
 
-#intro {
-    background-color: aquamarine;
+/*
+#introduction-section {
+    
 }
 
-#technical {
-    background-color: brown;
+#technical-skills-section {
+    
 }
 
-#shorts {
-    background-color: blue;
+#shorts-section {
+    
 }
 
-#awards {
-    background-color: blueviolet;
+#awards-section {
+    
 }
+*/
