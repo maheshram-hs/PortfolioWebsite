@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
-    padding: 20px;
 }
 
 section {
@@ -35,7 +35,7 @@ header {
     top: 0;
 }
 
-h1 {
+.logo-text h1 {
     color: #5B5545;
     font-size: min(5vw, 1.2em);
     text-align: center;
@@ -75,11 +75,32 @@ li>a {
     text-decoration: none;
 }
 
-/*
 #landing-section {
-    
+    display: block;
+    padding: -20px;
 }
 
+#landing-section img {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 0 0 10px 10px;
+    z-index: -1;
+}
+
+#landing-section h1 {
+    font-size: 4rem;
+}
+
+#landing-section h2 {
+    font-size: 1rem;
+}
+
+#landing-section span {
+    text-align: end;
+}
+
+/*
 #skills-section {
     
 }
