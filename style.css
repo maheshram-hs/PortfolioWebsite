@@ -28,6 +28,10 @@ body {
     section {
         scroll-snap-align: start;
     }
+    
+    #landing-text-section {
+        height: 50vh;
+    }
 }
 
 section {
@@ -90,7 +94,6 @@ li>a {
 
 #landing-section {
     display: block;
-    padding: -20px;
 }
 
 #landing-section img {
@@ -103,11 +106,11 @@ li>a {
 #landing-text-section {
     padding: 20px;
     width: 100%;
-    height: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
+    gap: 10px;
 }
 
 #landing-section h1 {
