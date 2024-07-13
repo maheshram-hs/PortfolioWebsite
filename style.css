@@ -145,7 +145,8 @@ li > a {
 
 /* Skills section styles */
 #skills-section {
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #skills-section ul {
